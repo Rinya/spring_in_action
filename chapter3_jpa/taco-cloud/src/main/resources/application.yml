@@ -1,0 +1,16 @@
+#debug: true
+
+spring:
+  thymeleaf:
+    cache: false
+
+  devtools:
+    add-properties: true
+
+  datasource:
+    initialization-mode: always
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none
